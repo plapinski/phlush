@@ -52,7 +52,7 @@ The analysis script lives at:
 
 Invoke it via Bash:
 ```bash
-python3 .claude/skills/phlush/tools/analyze.py [flags]
+$(command -v python3 || command -v python) .claude/skills/phlush/tools/analyze.py [flags]
 ```
 
 ## Output Guidelines

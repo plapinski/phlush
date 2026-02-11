@@ -19,7 +19,7 @@ If Docker is not running, tell the user to start Docker Desktop and stop.
 Execute the analysis tool with the parsed arguments from SKILL.md:
 
 ```bash
-python3 .claude/skills/phlush/tools/analyze.py [flags]
+$(command -v python3 || command -v python) .claude/skills/phlush/tools/analyze.py [flags]
 ```
 
 Capture the full output. This is your primary data source.
